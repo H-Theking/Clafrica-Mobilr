@@ -11,7 +11,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by harvey on 2/10/18.
  */
-public class KeyboardServiceInstrumentationTest {
+public class KeyboardVServiceInstrumentationTest {
     @Test
     public void getCharacters() throws Exception {
         InputStream inputStream = getInstrumentation().getContext().getResources().openRawResource(R.raw.characters);

@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 /**
  * Created by harvey on 2/11/18.
  */
-public class KeyboardServiceTest {
+public class KeyboardVServiceTest {
     MockResources mockResources = new MockResources();
 
     @Test
