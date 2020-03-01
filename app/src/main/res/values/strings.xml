@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Clafrica Mobile</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="thanks">Thanks for downloading clafrica mobile. To use the the keyboard, follow the instructions below:</string>
+    <string name="tosettings">Tap the settings button</string>
+    <string name="opensettings">to open settings.</string>
     <string name="african_ime">Clafrica Mobile</string>
     <string name="subtype_en_UK">Clafrica Mobile</string>
+    <string name="title_activity_main">WalkhroughActivity</string>
 </resources>
