@@ -2,10 +2,14 @@
     <string name="app_name">Clafrica Mobile</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="thanks">Thanks for downloading clafrica mobile. To use the the keyboard, follow the instructions below:</string>
+    <string name="thanks">Thanks for downloading clafrica mobile. To use this keyboard, follow the instructions below:</string>
+    <string name="thanks_2">Thanks for downloading the Clafrica Mobile Keyboard. To use this keyboard, you need to activate it. Clicking on the button below, then click on the toggle button next to Clafrica Mobile on the page that shows up to activate it.</string>
+    <string name="thanks_3">Once you have activated the Clafrica keyboard, click on the button below then select Clafrica Mobile in the menu that shows up.</string>
     <string name="tosettings">Tap the settings button</string>
-    <string name="opensettings">to open settings.</string>
+    <string name="open_settings">to open settings.</string>
     <string name="african_ime">Clafrica Mobile</string>
     <string name="subtype_en_UK">Clafrica Mobile</string>
     <string name="title_activity_main">WalkhroughActivity</string>
+    <string name="settings_btn_text">Activate Clafrica</string>
+    <string name="ime_selector_btn_text">Select Clafrica</string>
 </resources>
