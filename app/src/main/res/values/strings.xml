@@ -17,8 +17,9 @@
     <string name="title_about_activity">About Clafrica</string>
     <string name="clafrica_help">
         <![CDATA[
-        <p>Clafrica Mobile, uses only the combination of roman characters and numbers in order to
-            write all the special characters that exist in African Languages.</p>
+        <p>
+            Clafrica mobile keyboard uses only a combination of roman characters and numbers in order
+            write all the special characters that exist in African languages.</p>
         <p>
             <b>Examples:</b>
         </p>
