@@ -18,18 +18,18 @@
         <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="113" android:keyLabel="q"  android:popupKeyboard="@xml/popup" android:popupCharacters="%"
+        <Key android:codes="113" android:keyLabel=" "  android:popupKeyboard="@xml/popup" android:popupCharacters="%"
             android:keyEdgeFlags="left"/>
-        <Key android:codes="119" android:keyLabel="w"  android:popupKeyboard="@xml/popup" android:popupCharacters="^"/>
-        <Key android:codes="101" android:keyLabel="e"  android:popupKeyboard="@xml/popup" android:popupCharacters="~"/>
-        <Key android:codes="114" android:keyLabel="r"  android:popupKeyboard="@xml/popup" android:popupCharacters="|"/>
-        <Key android:codes="116" android:keyLabel="t"  android:popupKeyboard="@xml/popup" android:popupCharacters="["/>
-        <Key android:codes="121" android:keyLabel="y"  android:popupKeyboard="@xml/popup" android:popupCharacters="]"/>
+        <Key android:codes="119" android:keyLabel=" "  android:popupKeyboard="@xml/popup" android:popupCharacters="^"/>
+        <Key android:codes="101" android:keyLabel=" "  android:popupKeyboard="@xml/popup" android:popupCharacters="~"/>
+        <Key android:codes="114" android:keyLabel=" "  android:popupKeyboard="@xml/popup" android:popupCharacters="|"/>
+        <Key android:codes="116" android:keyLabel=" "  android:popupKeyboard="@xml/popup" android:popupCharacters="["/>
+        <Key android:codes="121" android:keyLabel=" "  android:popupKeyboard="@xml/popup" android:popupCharacters="]"/>
 
-        <Key android:codes="117" android:keyLabel="u"  android:popupKeyboard="@xml/popup" android:popupCharacters="&lt;"/>
-        <Key android:codes="105" android:keyLabel="i"  android:popupKeyboard="@xml/popup" android:popupCharacters="&gt;"/>
-        <Key android:codes="111" android:keyLabel="o"  android:popupKeyboard="@xml/popup" android:popupCharacters="{"/>
-        <Key android:codes="112" android:keyLabel="p"  android:popupKeyboard="@xml/popup" android:popupCharacters="}"/>
+        <Key android:codes="117" android:keyLabel=" "  android:popupKeyboard="@xml/popup" android:popupCharacters="&lt;"/>
+        <Key android:codes="105" android:keyLabel=" "  android:popupKeyboard="@xml/popup" android:popupCharacters="&gt;"/>
+        <Key android:codes="111" android:keyLabel=" "  android:popupKeyboard="@xml/popup" android:popupCharacters="{"/>
+        <Key android:codes="112" android:keyLabel=" "  android:popupKeyboard="@xml/popup" android:popupCharacters="}"/>
     </Row>
     <Row>
         <Key android:codes="97" android:keyLabel="a"  android:popupKeyboard="@xml/popup" android:popupCharacters="\@"
