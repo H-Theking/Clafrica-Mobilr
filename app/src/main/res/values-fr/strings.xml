@@ -3,9 +3,59 @@
     <string name="app_name">Clafrica Mobile</string>
     <string name="settings_btn_text">Activer Clafrica</string>
     <string name="ime_selector_btn_text">Selectioner Clafrica</string>
-    <string name="thanks_2">Merci d\'avoir telecharge le clavier mobile Clafrica. Pour utiliser ce clavier, vous devez d\'abord l\'activer en cliquant sur le bouton ci dessous</string>
-    <string name="thanks_3">Lorsque voud aurez active le clavier Clafrica, cliquez sur le bouton si dessus puis selectionnez le clavier Clafrica dans le menu qui s\'affichera.</string>
+    <string name="thanks_2">Merci d\'avoir téléchargé le clavier mobile Clafrica. Pour utiliser ce clavier, vous devez l\'activer. Cliquez sur le bouton ci-dessous, puis cliquez sur le bouton bascule à côté de Clafrica Mobile sur la page qui s\'affiche pour l\'activer.</string>
+    <string name="thanks_3">Une fois que vous avez activé le clavier Clafrica, cliquez sur le bouton ci-dessous puis sélectionnez Clafrica Mobile dans le menu qui s\'affiche.</string>
     <string name="help">Aide</string>
     <string name="about">A Propos</string>
     <string name="title_about_activity">A Propos Du Clafrica</string>
+    <string name="clafrica_help">
+        <![CDATA[
+        <p>
+            Le clavier mobile Clafrica utilise uniquement une combinaison de caractères romains et de chiffres
+            afin d\'écrire tous les caractères spéciaux qui existent dans les langues africaines.
+        </p>
+        <p>
+            <b>Examples:</b>
+        </p>
+        <p>
+            <b>Les Caractères Spéciaux:</b><br/>
+            af = ɑ; eu = ə; ai = ε; u- = ʉ; uu = ʉ;<br />
+            b* = ɓ; d* = ɗ; n* =ŋ;  n = ɲ; o = ɔ; u* = ʋ
+        </p>
+        <p>
+            <b>Tons:</b><br/>
+            a1 = à; a2 = á; a3 = ā; a5 = â; a7 = ǎ<br/>
+            af1 = ɑ̀; af2 = ɑ́; af3 = ɑ̄; af5 = ɑ̂; af7 = ɑ̌<br/>
+            e1 = è; e2 = é; e3 = ē; e5 = ê; e7 = ě<br/>
+            eu1 = ə̀; eu2 = ə́; eu3 = ə̄; eu5 = ə̂; eu7 = ə̌<br/>
+            ai1 = ɛ̀; ai2 = έ; ai3 = ɛ̄; ai5 = ɛ̂; ai7 = ɛ̌<br/>
+            i1 = ì; i2 = í; i3 = ī; i5 = î; i7 = ǐ<br/>
+            o1 = ò; o2 = ó; o3 = ō; o5 = ô; o7 = ǒ<br/>
+            o*1 = ɔ̀; o*2 = ɔ́; o*3 = ɔ̄; o*5 = ɔ̂; o*7= ɔ̌<br/>
+            u1 = ù; u2 = ú; u3 = ū; u5 = û; u7 = ǔ<br/>
+            u-1 = ʉ̀; u-2 = ʉ́; u-3 = ʉ̄; u-5 = ʉ̂; u-7 = ʉ̌<br/>
+            uu1 = ʉ̀; uu2 = ʉ́; uu3 = ʉ̄; uu5 = ʉ̂; uu7 = ʉ̌<br/>
+            n*1 = ŋ̀; n*2 = ŋ́; n*3 = ŋ̄; n*5 = ŋ̂; n*7 = ŋ
+        </p>
+
+        <p>
+            <b>Double Voyelles</b><br/>
+            a11, a22, a33 = àà, áá, āā<br/>
+            af11, af22, af33 = ɑ̀ɑ̀, ɑ́ɑ́, ɑ̄ɑ̄<br/>
+            e11, e22, e33 = èè, éé, ēē<br/>
+            eu11, eu22, eu33 = ə̀ə̀, ə́ə́, ə̄ə̄<br/>
+            ai11, ai22, ai33 = ɛ̀ɛ̀, έέ, ɛ̄ɛ̄<br/>
+            i11, i22, i33 = ìì, íí, īī<br/>
+            o11, o22, o33 = òò, óó, ōō<br/>
+            o*11, o*22, o*33 = ɔ̀ɔ̀, ɔ́ɔ́, ɔ̄ɔ̄<br/>
+            u11, u22, u33 = ùù, úú, ūū<br/>
+            u-11, u-22, u-33 = ʉ̀ʉ̀, ʉ́ʉ́, ʉ̄ʉ̄<br/>
+            uu11, uu22, uu33 = ʉ̀ʉ̀, ʉ́ʉ́, ʉ̄ʉ̄<br/>
+            ia1, ia2, ia3 = ìà, íá, īā<br/>
+            iaf1, iaf2, iaf3 = ìɑ̀, íɑ́, īɑ̄<br/>
+            ie1, ie2, ie3 = ìè, íé, īē<br/>
+            ua1, ua2, ua3 = ùà, úá, ūā<br/>
+        </p>]]>
+    </string>
+    <string name="signature"><![CDATA[Developé par Harvey Sama pour Resulam, <link>www.resulam.com</link>]]></string>
 </resources>
