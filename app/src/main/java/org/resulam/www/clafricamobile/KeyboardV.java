@@ -31,15 +31,23 @@ public class KeyboardV extends KeyboardView {
         paint2.setColor(Color.WHITE);
     }
 
-    private void draw(Keyboard.Key key, String character, double x, Canvas canvas){
-        canvas.drawText(character, key.x + (float)key.width/2 - (float) x, key.y + 55, paint);
+    private void draw(Keyboard.Key key, String character, double x, Canvas canvas) {
+        canvas.drawText(character, key.x + (float) key.width / 2 - (float) x, key.y + 55, paint);
     }
 
-    private void draw2(Keyboard.Key key, String character, double x, Canvas canvas){
-        canvas.drawText(character, key.x + (float)key.width/2 - (float) x, key.y + 105, paint2);
+    private void draw2(Keyboard.Key key, String character, double x, Canvas canvas) {
+        canvas.drawText(character, key.x + (float) key.width / 2 - (float) x, key.y + 105, paint2);
     }
 
-    private boolean contains(int[] codes, int value){
+    private void drawKey(Keyboard.Key key, String upper, double upperX, String lower, double lowerX,
+                         String otherCharacter, double otherX, Canvas canvas) {
+        if (isCapsOn()) {
+            draw2(key, upper, upperX, canvas);
+        } else draw2(key, lower, lowerX, canvas);
+        draw(key, otherCharacter, otherX, canvas);
+    }
+
+    private boolean contains(int[] codes, int value) {
         for (int i = 0; i < codes.length; i++) {
             if (codes[i] == value) return true;
         }
@@ -53,175 +61,113 @@ public class KeyboardV extends KeyboardView {
         List<Keyboard.Key> keys = getKeyboard().getKeys();
         for (Keyboard.Key key : keys) {
 
-            if (contains(key.codes,113)) {
-                String letter = this.getKeyboard().isShifted() ? "Q" : "q";
-                draw(key, "%",  14, canvas);
-                draw2(key, letter, 14, canvas);
-            }
-
-            if (contains(key.codes,119)) {
-                String letter = this.getKeyboard().isShifted() ? "W" : "w";
-                draw(key, "^",  9, canvas);
-                draw2(key, letter, 19, canvas);
-            }
-
-            if (contains(key.codes,101)) {
-                String letter = this.getKeyboard().isShifted() ? "E" : "e";
+            if (contains(key.codes, 113)) {
+                if (isCapsOn()) {
+                    draw2(key, "Q", 17, canvas);
+                } else {
+                    draw2(key, "q", 14, canvas);
+                }
+                draw(key, "%", 14, canvas);
+            } else if (contains(key.codes, 119)) {
+                if (isCapsOn()) draw2(key, "W", 25, canvas);
+                else draw2(key, "w", 19, canvas);
+                draw(key, "^", 9, canvas);
+            } else if (contains(key.codes, 101)) {
+                if (isCapsOn())
+                    draw2(key, "E", 14, canvas);
+                else
+                    draw2(key, "e", 13, canvas);
                 draw(key, "~", 13, canvas);
-                draw2(key, letter, 13, canvas);
-            }
-
-            if (contains(key.codes,114)) {
-                String letter = this.getKeyboard().isShifted() ? "R" : "r";
+            } else if (contains(key.codes, 114)) {
+                if (isCapsOn())
+                    draw2(key, "R", 15, canvas);
+                else draw2(key, "r", 8, canvas);
                 draw(key, "|", 4, canvas);
-                draw2(key, letter,8, canvas);
-            }
-
-            if (contains(key.codes,116)) {
-                String letter = this.getKeyboard().isShifted() ? "T" : "t";
+            } else if (contains(key.codes, 116)) {
+                if (isCapsOn())
+                    draw2(key, "T", 14, canvas);
+                else draw2(key, "t", 8.5, canvas);
                 draw(key, "[", 5, canvas);
-                draw2(key, letter,8.5, canvas);
-            }
-
-            if (contains(key.codes,121)) {
-                String letter = this.getKeyboard().isShifted() ? "Y" : "y";
+            } else if (contains(key.codes, 121)) {
+                if (isCapsOn())
+                    draw2(key, "Y", 14, canvas);
+                else draw2(key, "y", 12, canvas);
                 draw(key, "]", 5, canvas);
-                draw2(key, letter,12, canvas);
-            }
-
-            if (contains(key.codes,117)) {
-                String letter = this.getKeyboard().isShifted() ? "U" : "u";
-                draw(key, "<", 8.5, canvas);
-                draw2(key, letter,13.5, canvas);
-            }
-
-            if (contains(key.codes,105)) {
-                String letter = this.getKeyboard().isShifted() ? "I" : "i";
-                draw(key, ">", 12, canvas);
-                draw2(key, letter,6.5, canvas);
-            }
-
-            if (contains(key.codes,111)) {
-                String letter = this.getKeyboard().isShifted() ? "O" : "o";
+            } else if (contains(key.codes, 117)) {
+                if (isCapsOn())
+                    draw2(key, "U", 16.5, canvas);
+                else draw2(key, "u", 13.5, canvas);
+                draw(key, "<", 10, canvas);
+            } else if (contains(key.codes, 105)) {
+                if (isCapsOn())
+                    draw2(key, "I", 6.5, canvas);
+                else draw2(key, "i", 6.5, canvas);
+                draw(key, ">", 10, canvas);
+            } else if (contains(key.codes, 111)) {
+                if (isCapsOn())
+                    draw2(key, "O", 17, canvas);
+                else draw2(key, "o", 14, canvas);
                 draw(key, "{", 8.5, canvas);
-                draw2(key, letter,14, canvas);
-            }
-
-            if (contains(key.codes,112)) {
-                String letter = this.getKeyboard().isShifted() ? "P" : "p";
+            } else if (contains(key.codes, 112)) {
+                if (isCapsOn())
+                    draw2(key, "P", 15.5, canvas);
+                else draw2(key, "p", 12.5, canvas);
                 draw(key, "}", 8.5, canvas);
-                draw2(key, letter,15.5, canvas);
             }
 
-//            if (contains(key.codes,113)) {
-//                draw(key, "%", canvas);
-//                draw2(key, letter, canvas);
-//            }
-//
-//            if (contains(key.codes,119)) {
-//                draw(key, "^", canvas);
-//                draw2(key, letter, canvas);
-//            }
-
-
-            if (key.label != null) {
-
-//                if (key.label.toString().equals("q") || key.label.toString().equals("Q")) {
-//                    draw(key, "%", canvas);
-//                }
-
-//                 if (key.label.toString().equals("w") || key.label.toString().equals("W"))
-//                    draw(key, "^", canvas);
-
-//                 if (key.label.toString().equals("e") || key.label.toString().equals("E"))
-//                     draw(key, "~", canvas);
-////                    canvas.drawText("~", key.x + (key.width / 2) + 40, key.y + 65, paint);
-//
-//                else if (key.label.toString().equals("r") || key.label.toString().equals("R"))
-//                     draw(key, "|", canvas);
-////                    canvas.drawText("|", key.x + (key.width / 2) + 40, key.y + 65, paint);
-//
-//                else if (key.label.toString().equals("t") || key.label.toString().equals("T"))
-//                     draw(key, "[", canvas);
-////                    canvas.drawText("[", key.x + (key.width / 2) + 40, key.y + 65, paint);
-//
-//                else if (key.label.toString().equals("y") || key.label.toString().equals("Y"))
-//                     draw(key, "]", canvas);
-////                    canvas.drawText("]", key.x + (key.width / 2) + 40, key.y + 65, paint);
-//
-//                else if (key.label.toString().equals("u") || key.label.toString().equals("U"))
-//                     draw(key, "]", canvas);
-////                    canvas.drawText("<", key.x + (key.width / 2) + 40, key.y + 65, paint);
-//
-//                else if (key.label.toString().equals("i") || key.label.toString().equals("I"))
-//                     draw(key, ">", canvas);
-////                    canvas.drawText(">", key.x + (key.width / 2) + 40, key.y + 65, paint);
-//
-//                else if (key.label.toString().equals("o") || key.label.toString().equals("o"))
-//                     draw(key, "{", canvas);
-////                    canvas.drawText("{", key.x + (key.width / 2) + 40, key.y + 65, paint);
-//
-//                else if (key.label.toString().equals("p") || key.label.toString().equals("P"))
-//                     draw(key, "}", canvas);
-//                    canvas.drawText("}", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-
-                if (key.label.toString().equals("a") || key.label.toString().equals("A"))
-                    canvas.drawText("@", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("s") || key.label.toString().equals("S"))
-                    canvas.drawText("#", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("d") || key.label.toString().equals("D"))
-                    canvas.drawText("&", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("f") || key.label.toString().equals("F"))
-                    canvas.drawText("*", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("g") || key.label.toString().equals("G"))
-                    canvas.drawText("-", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("h") || key.label.toString().equals("H"))
-                    canvas.drawText("+", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("j") || key.label.toString().equals("J"))
-                    canvas.drawText("=", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("k") || key.label.toString().equals("K"))
-                    canvas.drawText("(", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("l") || key.label.toString().equals("L"))
-                    canvas.drawText(")", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-
-                else if (key.label.toString().equals("z") || key.label.toString().equals("Z"))
-                    canvas.drawText("_", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("x") || key.label.toString().equals("X"))
-                    canvas.drawText("$", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("c") || key.label.toString().equals("C"))
-                    canvas.drawText("\"", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("v") || key.label.toString().equals("V"))
-                    canvas.drawText("'", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("b") || key.label.toString().equals("B"))
-                    canvas.drawText(":", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("n") || key.label.toString().equals("N"))
-                    canvas.drawText(";", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
-                else if (key.label.toString().equals("m") || key.label.toString().equals("M"))
-                    draw(key, "/", 12.5, canvas);
-//                    canvas.drawText("/", key.x + (key.width / 2) + 40, key.y + 65, paint);
-
+            //------------------------Row 2---------------------------
+            else if (contains(key.codes, 97)) {
+                drawKey(key, "A", 16.5, "a", 14, "@", 17, canvas);
             }
-//            else if (Arrays.asList(key.codes).contains(-5)) {
-//                Paint paint2 = new Paint();
-//                paint2.setColor(Color.TRANSPARENT);
-//                canvas.draw
-//            }
+            else if (contains(key.codes, 115)) {
+                drawKey(key, "S", 15, "s", 12, "#", 11, canvas);
+            }
+            else if (contains(key.codes, 100)) {
+                drawKey(key, "D", 15, "d", 14, "&", 11, canvas);
+            }
+            else if (contains(key.codes, 102)) {
+                drawKey(key, "F", 14, "f", 9, "*", 8, canvas);
+            }
+            else if (contains(key.codes, 103)) {
+                drawKey(key, "G", 17, "g", 14, "-", 5, canvas);
+            }
+            else if (contains(key.codes, 104)) {
+                drawKey(key, "H", 18, "h", 13, "+", 11, canvas);
+            }
+            else if (contains(key.codes, 106)) {
+                drawKey(key, "J", 14, "j", 5, "=", 11, canvas);
+            }
+            else if (contains(key.codes, 107)) {
+                drawKey(key, "K", 14, "k", 11, "(", 8, canvas);
+            }
+            else if (contains(key.codes, 108)) {
+                drawKey(key, "L", 13, "l", 6, ")", 7, canvas);
+            }
+            else if (contains(key.codes, 122)) {
+                drawKey(key, "Z", 15, "z", 12, "_", 10, canvas);
+            }
+            else if (contains(key.codes, 120)) {
+                drawKey(key, "X", 15.5, "x", 12, "$", 11, canvas);
+            }
+            else if (contains(key.codes, 99)) {
+                drawKey(key, "C", 17, "c", 14, "\"", 7, canvas);
+            }
+            else if (contains(key.codes, 118)) {
+                drawKey(key, "V", 16, "v", 12, "'", 4, canvas);
+            }
+            else if (contains(key.codes, 98)) {
+                drawKey(key, "B", 15, "b", 14, ":", 5, canvas);
+            }
+            else if (contains(key.codes, 110)) {
+                drawKey(key, "N", 18, "n", 13, ";", 3, canvas);
+            }
+            else if (contains(key.codes, 109)) {
+                drawKey(key, "M", 21, "m", 22, "/", 8, canvas);
+            }
         }
+    }
+
+    private boolean isCapsOn() {
+        return this.getKeyboard().isShifted();
     }
 }
