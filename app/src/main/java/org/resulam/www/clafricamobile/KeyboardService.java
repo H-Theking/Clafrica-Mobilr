@@ -1,4 +1,4 @@
-package com.resulam.harvey.clafricamobilekeyboard;
+package org.resulam.www.clafricamobile;
 
 import android.content.Context;
 import android.inputmethodservice.InputMethodService;
@@ -56,15 +56,15 @@ public class KeyboardService extends InputMethodService implements KeyboardView.
             e.printStackTrace();
         }
         dictionary = characters;
-//        keyboardView = (KeyboardView)getLayoutInflater().inflate(R.layout.keyboard_view, null);
-        keyboardView = new com.resulam.harvey.clafricamobilekeyboard.KeyboardV(KeyboardService.this, null);
+        keyboardView = new KeyboardV(KeyboardService.this, null);
 
         mainKeyboard = new Keyboard(this, R.xml.qwerty);
         symbolKeyboard = new Keyboard(this, R.xml.symbols);
         specialKeyboard = new Keyboard(this, R.xml.special);
-        keyboard = new Keyboard(this, R.xml.qwerty);
         keyboardView.setKeyboard(mainKeyboard);
         keyboardView.setOnKeyboardActionListener(this);
+
+        keyboardView.setPreviewEnabled(false);
 
         final Handler handler = new Handler();
         Runnable mLongPressed = new Runnable() {

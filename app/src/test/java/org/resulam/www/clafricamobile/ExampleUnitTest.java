@@ -1,4 +1,4 @@
-package com.resulam.harvey.clafricamobilekeyboard;
+package org.resulam.www.clafricamobile;
 
 import org.junit.Test;
 
