@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/clafrica_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/clafrica_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".menus.Help"
@@ -28,21 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".TutorialActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
-        <activity
-            android:name=".OnboardingActivity"
-            android:screenOrientation="unspecified" />
 
         <service
             android:name=".KeyboardService"

@@ -56,7 +56,6 @@ public class KeyboardService extends InputMethodService implements KeyboardView.
             e.printStackTrace();
         }
         dictionary = characters;
-//        keyboardView = (KeyboardView)getLayoutInflater().inflate(R.layout.keyboard_view, null);
         keyboardView = new KeyboardV(KeyboardService.this, null);
 
         mainKeyboard = new Keyboard(this, R.xml.qwerty);
@@ -64,6 +63,8 @@ public class KeyboardService extends InputMethodService implements KeyboardView.
         specialKeyboard = new Keyboard(this, R.xml.special);
         keyboardView.setKeyboard(mainKeyboard);
         keyboardView.setOnKeyboardActionListener(this);
+
+        keyboardView.setPreviewEnabled(false);
 
         final Handler handler = new Handler();
         Runnable mLongPressed = new Runnable() {
