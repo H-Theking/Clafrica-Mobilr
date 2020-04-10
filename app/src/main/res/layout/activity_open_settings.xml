@@ -8,14 +8,13 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         tools:context=".OpenSettings">
 
         <com.gc.materialdesign.views.ButtonRectangle
             android:id="@+id/btn_open_settings"
             android:layout_width="320dp"
             android:layout_height="86dp"
-            android:layout_marginTop="12dp"
             android:onClick="openLanguageSettings"
             android:paddingLeft="5dp"
             android:paddingTop="5dp"
@@ -24,7 +23,7 @@
             android:text="@string/settings_btn_text"
             android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.414"
+            app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6">
 
@@ -48,14 +47,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:justificationMode="inter_word"
-            android:layout_marginTop="20dp"
             android:padding="10dp"
             android:text="@string/thanks_3"
             android:textSize="20sp"
             android:typeface="sans"
             app:fontFamily="serif"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_open_settings" />
 
@@ -71,6 +69,21 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView7"
             app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:text="@string/help_pointer"
+            android:textSize="20sp"
+            android:typeface="sans"
+            app:fontFamily="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonRectangle"
+            app:layout_constraintVertical_bias="1.0" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

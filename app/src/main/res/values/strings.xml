@@ -61,5 +61,6 @@
     <string name="signature"><![CDATA[
         Developed by Harvey Sama for Resulam, <link>www.resulam.com</link>]]>
     </string>
+    <string name="help_pointer">Please check the menu at the top right of the screen for help on using this keyboard.</string>
 
 </resources>
