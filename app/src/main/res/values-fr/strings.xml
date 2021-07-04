@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Clafrica Mobile</string>
+    <string name="app_name">Clafrica Resulam</string>
     <string name="settings_btn_text">Activer Clafrica</string>
     <string name="ime_selector_btn_text">Sélectionner Clafrica</string>
     <string name="thanks_2">Merci d\'avoir téléchargé le clavier mobile Clafrica. Pour utiliser ce clavier, vous devez d\'abord l\'activer en cliquant sur le bouton ci-dessous</string>

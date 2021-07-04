@@ -369,11 +369,6 @@
     n3    : n̄
     n5    : n̂
     n7    : ň
-    nn1   : ŋ̀
-    nn2   : ŋ́
-    nn3   : ŋ̄
-    nn5   : ŋ̂
-    nn7   : ŋ̌
     o*    : ɔ
     o*1   : ɔ̀
     o*11  : ɔ̀ɔ̀
@@ -468,3 +463,328 @@
     uuaf3 : ʉ̄ɑ̄
     uuaf5 : ʉɑ̂
     uuaf7 : ʉɑ̌
++a : shwì' ā
+aghmh : ǎ ghèn mɑ̀ hɑ̄ ?
+almk : ǎ lén mɑ́ kɑ́ ?
+almkl : ǎ lén mɑ́ kɑ́ lī?
+amh : ǎ mɑ̀ hɑ̄ ?
+amnd : ǎ mɑ̀ndīē
+amngk : ǎ mɑ̀ngʉ́ kɑ́ ?
+amni : ǎ mɑ̀nní
+amnsii : ǎ mɑ̀nsíí
+ansmh : ǎ nsī mɑ̀ hɑ̄ ?
+assb : à sī sīē bɑ̄
+cc' : cīcō'ò
+cklkk : cák lò kīkēē
+cmna : Ca᷅mnà'
+cngaka' : cēh ngà'kà'
+cng'k' : cēh ngà'kà'
+cngw : cə̄ə̄ ngwāh
+cpnwala' : cēh pɑ̀ŋwâtlɑ̄'
+cslz : cômsǐlíé'zī
+cw'hw : cwě' hwíé
+cw'mk : cwè' mɑ́ kɑ́ ?
+cwn : cwǎnù
+cwnb : cwǎnù bɑ́
+dpp : dīē pə̀pē'
+fb : fà'á bɑ́
+fhmnko : fóh mɑ̀nkō
+fhsnd : fhʉ̄ sáá ndó
+fhz : fɑ̌hnzɑ̄
+fpp : fɑ̌' pə̀pē'
+ghmw : ghʉ̀ mɑ̀wǎ
+ghnd'nd' : ghʉ̌ ndɑ̀'ndɑ̀'
+ghszh : ghʉ̀ sì zhī
+hmbipa : hɑ̄ mbí pɑ̀h
+hmbipo : hɑ̄ mbí pō
+hmbua : hɑ̄ mbú à
+hmbui : hɑ̄ mbú ì
+hpi : Hɑ̄āpìì
+hszh : hèè sì zhī
+hwsnao : hwīēsī nā ò
+kb? : kɑ́ bɑ́ ɑ̄ ?
+kbyb? : kɑ́ bɑ́ yì béè ?
+kcnt : kə̀cɔ̀ nə̀tǐ' !
+ks : wèn kōsī ā lɑ́ ō ō ō !
+ktmng : kɑ́ tɑ́ ó mɑ̀ngʉ́ ʉ̄ ?
+ktmngf : kɑ́ tɑ́ ó mɑ̀ngʉ́ fà'á ā ?
+l mb mf ng mbh : lǎh mbè' mfɑ̀' ngén mbhì
+l nsh o : lā' nshù ō
+l s : lǒ sáá
+lhsa : lɑ̀hsì ā lɑ́
+lhza : lóh zɑ́h à
+lmbipa : lēn mbí pɑ̀h
+lmbipo : lēn mbí pō
+lmbmfngmbh : lǎh mbè' mfɑ̀' ngén mbhì
+lmb'mf'ngmbh : lǎh mbè' mfɑ̀' ngén mbhì
+lmbua : lēn mbú à
+lmbui : lēn mbú ì
+lmbuim : lēn mbú í mɑ́
+lmng' : lēn mɑ́ ngǎ'
+lmnga : lēn mɑ́ ngǎ'
+lmnh : lēn mɑ́ ŋ̄h
+ln : lʉ̀ʉ̄ nā ò !
+lnthngc : lǎh nthʉ̄ ō ngén càm
+lys : lā' ywààsì !
+l'ys : lā' ywààsì !
+m mb : mɑ́ mbɑ̀ !
+mb' : mbɑ̄'
+mb f : mbè' mfɑ̀'
+mb fa : mbɑ̀ fà'á
+mb l : mbə̄ə̄ lɑ́
+mbf : mbè' mfɑ̀'
+mbk : mbàk
+mbkmnd : mbǎk mɑ̀ndō
+mbkngf : mbàkngòfāt
+mbksmndb : mbǎk mɑ̀ndō
+mbmb : mbə̄ə̄ mbɑ̀
+mb'mb'lz : mbè'mbè' líé'zī
+mbmngpno : mbɑ̀ mʉ̀ ngɑ̌ pén ō
+mbmpn : mbɑ̀ mʉ̌ pén ō
+mbntma : mbǎ'ntām à
+mb'o : mbɑ̄' ō
+mbpen : mbí pèn
+mb'tm : mbī'tū mɑ́
+mbz : mbūànzɑ̄
+mbzh : Mbóó zhī
+mfskwnkw : mfɑ̀' sìkwè'nkwé'
+mgw : Mòōngwê
+mkl : mɑ́ kɑ́ lī ?
+mmo. : mēmmɑ̄ ò
+mmsh : mòmòshʉ̄
+mndka : mʉ̀ ndǒk à
+mŋ : mɑ̄ŋū
+mvo : mɑ̄vǒ
+mz : mɑ̀nzɑ̄
+n gh a : nǔ ghʉ̀ ā
+n k c : ǹ kɑ̀' cə̄ə̄
+n k zh : ǹ kɑ̀' zhī
+n t : nù tɑ̀' !
+nc s w b : ncà' sī wū bɑ̄
+nclb : ncǎ' lɑ̀ bɑ̄
+ncswb : ncà' sī wū bɑ̄
+ncw' : ngɑ̌ kúɑ́ ncwē'! ncwé' tāt lá ndʉ̄ɑ̄ !
+ndf : ndʉ̂'fōh
+ndgw : Ndə̀ə̄ngwê
+ndka : ndǒk à
+ndkam : Ndə̀ə̄nkām
+ndki : ndǒk ì
+ndko : ndǒk ò
+nd'm : ndɑ̌'mɑ́
+ndnd : ndéndēē
+nd'nd' : ndɑ̀'ndɑ̀'
+ndnd b : ndéndēē bɑ́
+ndndb : ndéndēē bɑ́
+ndndbn : ndɑ̀'ndɑ̀' bɑ̌ nù
+ndndmn : ndɑ̀'ndɑ̀' mɑ̌ nù
+ndnsh : ndʉ̂'nshì
+ndsclp : ndʉ̄ɑ̄ sì cɑ̀'sì lɑ̀pìé
+ndscmn : ndòm sīècɑ̄' mɑ́ nēhē
+ng' : ngǎ'
+ng cs o l : ngɑ̌ cɑ̀'sì ō lɑ́
+ng k zhw : ngɑ̌ kúɑ́ zhwìè
+ng kw o : ngɑ̌ kwè' ō
+ng ns m : ngɑ̌ nsī mɑ̀
+ng ns p : ngɑ̌ nsī pí
+ng nt : ngɑ̌ ntèn
+ng p n : ngɑ̌ pén ō
+ng t ng t o : ngɑ̌ tám ngáá tú ò
+ng y' : ngɑ̌ yú'
+ng y nth mb o : ngɑ̌ yá'nthʉ́ mbú ò
+ng zh : ngɑ̌ zhí
+ngcahs : ngɑ̌ cáhsí
+ngcmf : ngɑ̌ cóh mfɑ̀'
+ngcoh : ngɑ̌ cóh
+ngcohmf : ngɑ̌ cóh mfɑ̀'
+ngcs : ngɑ̌ cáhsí
+ngc's : ngɑ̌ cɑ̀'sì
+ngcsol : ngɑ̌ cɑ̀'sì ō lɑ́
+ngfhmnd : ngɑ̌ fhʉ́mɑ̄ndīē
+ngfhmnsn : ngɑ̌ fhʉ́mɑ̄nsóh nā à
+ng'fi : ngù'fī
+nggh : ngɑ̌ ghʉ̌
+ngha : nǔ ghʉ̀ ā
+nght : ngɑ̌ hèè tɑ̀'
+ngko : Ngǎ'kò
+ngkw' : ngɑ̌ kwà'
+ngkwf : ngɑ̌ kwà' fà'á
+ngkwo : ngɑ̌ kwè' ō
+ngkzhw : ngɑ̌ kúɑ́ zhwìè
+nglmnga : ngɑ̌ lén mɑ́ ngǎ'
+nglsio : ngɑ̌ lɑ̀ɑ̀sì ō
+nglso : ngɑ̌ lɑ̀ɑ̀sì ō
+ngm : ngɑ̌ mɑ̀
+ngmmf : ngɑ̌ mɑ̀ mfɑ́'
+ngmncwnt : ngɑ̌ mɑ̀ncwáántīē
+ngmnd : ngɑ̌ mɑ̀ndīē
+ngmnees : ngɑ̌ mɑ̀nnēēsī
+ngmng : ngɑ̌ mɑ̀ngóó
+ngmngoo : ngɑ̌ mɑ̀ngóó
+ngmni : ngɑ̌ mɑ̀nní
+ngmns : ngɑ̌ mɑ̀nnēēsī
+ngmnsii : ngɑ̌ mɑ̀nsíí
+ngmnsohna : ngɑ̌ mɑ̀nsóh nā à
+ngmnsoko : ngɑ̌ mɑ̀nsōk ō
+ngmnzwz : ngɑ̌ mɑ̀nnzɑ̄ wúzɑ̄
+ngmzwz : ngɑ̌ mɑ̀nzɑ̄ wúzɑ̄
+ng'naa : ngǎ' nā à !
+ng'naap : ngǎ' nā à pʉ̀mbè !
+ngngd : ngɑ̌ ngén dīē
+ngngmmf : ngɑ̌ ngén mɑ̀ mfɑ̀'
+ngngzwz : ngɑ̌ ngén zɑ̄ wúzɑ̄
+ngnsm : ngɑ̌ nsī mɑ̀
+ngnsndka : ngɑ̌ nsī ndǒk à
+ngnsp : ngɑ̌ nsī pí
+ngnt : ngɑ̌ ntèn
+ngnwn  : ngà' ŋwɑ̀'nì
+ngpn : ngɑ̌ pén ō
+ngpno : ngɑ̌ pén ō
+ngpt : ngɑ̌ pén tɑ̀'
+ngpua : ngɑ̌ púá
+ngpy : ngɑ̌ pén yēē
+ngtngto : ngɑ̌ tám ngáá tú ò
+ngy' : ngɑ̌ yú'
+ngynthmbo : ngɑ̌ yá'nthʉ́ mbú ò
+ngyu : ngɑ̌ yú'
+ngzh : ngɑ̌ zhí
+nh. : ŋ̄h
+nhwn  :  nɑ́hŋwɑ̀'nì
+nhwnnzh  :  nɑ́hŋwɑ̀'nǐ nzhǐntē'
+nhwnv  :  nɑ́hŋwɑ̀'nǐ vàm
+njwnt : njwēnɑ̌hntà'
+nk? : nǔkɑ́ ?
+nkb : nǔkɑ́ bɑ́ ɑ̄ ?
+nkbs : nǔkɑ́ bɑ́ sīē ?
+nkc : ǹ kɑ̀' cə̄ə̄
+nk'kw'b : ǹ kɑ̀' kwá' bɑ̄
+nknd'nd' : nǎk ndɑ̀'ndɑ̀'
+nkpp : nǎk pə̀pē'
+nkw'n : nkwè'nì
+nkw'nshnk : nkwè'nǐ shʉ̀ɑ̄ nkɑ̄ɑ̄
+nk'zh : ǹ kɑ̀' zhī
+nmmnt : nǎm mɑ̀ntʉ̄ɑ̄
+nmnt : nǎm mɑ̀ntʉ̄ɑ̄
+nshnsh : nshùnshʉ̀'
+n'sie : ně' sīē
+ns'nwnkngktb : nù sǐ' nnʉ́ɑ́ wènòk ngʉ́ kǎmthʉ̄ bɑ̄
+nssb : nù sī sīē bɑ̄
+nsw : nɑ́hsáhwū
+nth a lh mcs : nthʉ̄ á lōh mɑ̀ cà'sì
+nthalhmcs : nthʉ̄ á lōh mɑ̀ cà'sì
+nthlhmcs : nthʉ̄ á lōh mɑ̀ cà'sì
+ntmbngf : ntūmbhìngofāt
+nwn  :  ŋwɑ̀'nì
+nzhk m nko a : nzhìèkǔ' mɑ̀ nkō à
+nzhkmk : nzhìèkú' mɑ̀nkō ā
+nzhkmnkoa : nzhìèkǔ' mɑ̀ nkō à
+nzhwa : nzhwīē à
+nzl : nzɑ̌ léé è ?
+o s c : ǒ sì cə̄ə̄
+ofhmngk : ǒ fhʉ́mɑ̄ngʉ́ kɑ́ ?
+oghmsp : ǒ ghʉ̌ màà sìpè'
+oho : ôhó
+olmkl : ǒ lén mɑ́ kɑ́ lī?
+omh : ǒ mɑ̀ hɑ̄ ?
+ommba' : ǒ mɑ́ mbâ' !
+ommw : ǒ mɑ́ mên wɑ̄ ?
+omndmkl : ǒ mɑ̀ndēn mɑ́ kɑ́ lī?
+omngk : ǒ mɑ̀ngʉ́ kɑ́ ?
+omngmh : ǒ mɑ̀ngén mɑ̀ hɑ̄ ?
+omnjnzh : ǒ mɑ̀njīī nzhʉ̀ ʉ́ ?
+omw : ǒ mɑ́ wɑ̄ ?
+ongmh : ǒ ngén mɑ̀ hɑ̄ ?
+ongt : ǒ ngáh tɑ̀'
+ongt' : ǒ ngáh tɑ̀'
+onsmh : ǒ nsī mɑ̀ hɑ̄ ?
+onspw : ǒ nsī pí wɑ̄ ?
+opw : ǒ pí wɑ̄ ?
+osc : ǒ sì cə̄ə̄
+osghf : ǒ sì ghʉ́ fà'á
+osghnu : ǒ sì ghə́ə́ nù
+osh : ǒ sì hɑ̄
+oslnu : ǒ sì lēn nù
+ospnk : ǒ sì pūā nkhù
+ospnkh : ǒ sì pūā nkhù
+pghmw : pèn ghʉ́ mɑ̀wǎ
+phpen : pɑ́h á pèn
+pjm : pǎtnjàm
+pk : pèn khʉ́ɑ́!
+pma : póómɑ̄
+pmh : pěn mɑ̀ hɑ̄ ?
+pml : pěn mɑ̀ lāhā ?
+pmngk : pěn mɑ̀ngʉ́ kɑ́ ?
+pmoh : pēh mōh!
+p'nshil : pɑ́' nshì lɑ́
+p'nwn  : pú'ŋwɑ̀'nì
+ps'mb : pèn sɑ́' mbə̄ə̄
+pspp : pèn sī pə̀pē'
+ps'pp : pèn sɑ́' pə̀pē'
+pwk : pɑ̄h wūɑ̄kɔ̀ !
+s0 : sī nēhē
+sfbb : sī fà'á bɑ́ bɑ̄
+sfsf : sì' fà'á, sì' fà'á
+shck. : shʉ̀ɑ̀ncāk
+shnu : shʉ̀ɑ́nù !
+shp : nshʉ̀ɑ̀pʉ̀
+shpsie : nshʉ̀ɑ̀pʉ̀ sīē
+shwn : shwī nā ò
+ska : sōk ā
+sknk : nsāh kɑ́ nnʉ́ɑ́ kɑ́
+skw'nkw' : sìkwè'nkwé'
+smbb : sī mʉ̀ bɑ́ bɑ̄
+snd : sāhndó'
+sndndbb : sī ndéndēē bɑ́ bɑ̄
+spp : sī pə̀pē'
+s'pp : sɑ̌' pə̀pē'
+ss : sī sīē
+swe : sə̀ə̄wèn
+swu : sə̀ə̄wū
+sybb : sī yʉ̄ɑ̄ bɑ́ bɑ̄
+t t : tɑ̀' tɑ̀'
+thpo : tɑ̌hpō lɑ́
+tklk : tíklìklìklìklìk !
+tkmb : tɑ̀ kēēmbʉ̄ɑ̄
+tmblb : tɑ̀ mbʉ́ɑ́ lɑ̀ bɑ̄
+tml : tɑ̀ mó' līē'
+tmnd : tɑ̀ mêndɑ̀'
+tmw : tɑ̀ mmíé wǎ'
+tpl : tɑ̌hpō lɑ́
+twh : tɑ̀ wāhà
+vsm : vɑ̀hsìmìè
+w0 : wūnèhē
+wb : wɑ̄ bɑ́ ɑ̄ ?
+wk : wūɑ̄kɔ̀ !
+wl : wɑ̄ lī ?
+wndko : wò ndǒk ò
+wnk : wènòk
+wspnkh : wěn sì pūā nkhù
+wya : wɑ̄ yà ?
+wyl : wò yō lɑ́ ō ?
+wylo : wò yō lɑ́ ō ?
+wyo : wò yō
+wz : wúzɑ̄
+yb : yāā báá !
+yk' : yáá kù'
+ykp : yāā kɑ̀' pé'
+ykwf : yáá kwɑ̀' fà'á
+ylz : yáá lēē zǐ
+yml : yáá mɑ̀ lāhā
+ymmb : yáá mɑ̀mbé'
+ymndmk : yáá mɑ̀ ndɑ́'sí mɑ́ kɑ́ ?
+ymnk : yáá mɑ̀nnák
+ymspl : yì mɑ̀ Síé pēn lɑ́
+yndki : yʉ̄ɑ̄ ndǒk ì
+ynzl : yò nzɑ̌ léé è ?
+yp : yáá pè'
+ypwb : yēē pí wɑ̄ bɑ́ ɑ̄ ?
+yshnsh : ɑ́ yāā shʉ́ɑ́ nshǔ ó lɑ́
+ysmmb : yāā sī mɑ̀mbé' bɑ̄
+ysmnkb : yáá sī mɑ̀nnák bɑ́
+ywb : yǐ wɑ̄ bɑ́ ɑ̄ ?
+yy : yáá yə̄ə̄
+yywl : yēē yàà wɑ̄ lɑ̄ ē ē !
+zh nsh o : zhʉ̄ɑ̄' nshù ō
+zhwngw : zhî wèn ngén wūɑ̄
+z'mndom : zʉ̌' mɑ̀ndóm
+zzm : zēn zǎ mɑ́
+zzmw : zēn zǒ mɑ́ wɑ̄ ?

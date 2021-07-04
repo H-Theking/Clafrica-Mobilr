@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Clafrica Mobile</string>
+    <string name="app_name">Clafrica Resulam</string>
     <string name="african_ime" translatable="false">Clafrica Mobile</string>
     <string name="subtype_en_UK" translatable="false">Clafrica Mobile</string>
     <string name="keyboard_name" translatable="false">Clafrica</string>
@@ -61,6 +61,6 @@
     <string name="signature"><![CDATA[
         Developed by Harvey Sama for Resulam, <link>www.resulam.com</link>]]>
     </string>
-    <string name="help_pointer">Please check the menu at the top right of the screen for help on using this keyboard.</string>
+    <string name="help_pointer">Please check out the menu at the top right of the screen for help on using this keyboard.</string>
 
 </resources>

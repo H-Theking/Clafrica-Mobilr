@@ -26,11 +26,6 @@ import java.util.Set;
 
 public class KeyboardService extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
 
-    private int x1;
-    private int y;
-    private boolean longClick = false;
-    private final Context context = this;
-
     private enum State {
         FOUND, FOUND_EXTRA, NOT_FOUND, SEARCHING
     }
@@ -65,118 +60,6 @@ public class KeyboardService extends InputMethodService implements KeyboardView.
         keyboardView.setOnKeyboardActionListener(this);
 
         keyboardView.setPreviewEnabled(false);
-
-        final Handler handler = new Handler();
-        Runnable mLongPressed = new Runnable() {
-            public void run() {
-                Log.i("", "Long press!");
-            }
-        };
-//        final JSONObject longClick = new JSONObject();
-//        try {
-//            longClick.put("longclick", false);
-//        } catch (JSONException e) {
-//            e.printStackTrace();
-//        }
-        View custom = LayoutInflater.from(this)
-                .inflate(R.layout.popup_layout, new FrameLayout(this));
-        PopupWindow popup = new PopupWindow(this);
-//        popup.setContentView(custom);
-//        keyboardView.setOnTouchListener(new View.OnTouchListener() {
-//            @Override
-//            public boolean onTouch(View view, MotionEvent event) {
-//                int centreX = (int) event.getX(), centreY = (int) event.getY();
-//                Keyboard.Key touched = null;
-//
-//                for (Keyboard.Key k : keyboard.getKeys()) {
-//                    // If the coordinates from the Motion event are inside of the key
-//                    if (k.isInside((int) event.getX(), (int) event.getY())) {
-//                        // k is the key pressed
-//                        Log.d("Debugging",
-//                                "Key pressed: X=" + k.codes[0]);
-//                        centreX = (k.width / 2) + k.x;
-//                        centreY = (k.height / 2) + k.y;
-//                        // These values are relative to the Keyboard View
-//                        Log.d("Debugging",
-//                                "Centre of the key pressed: X=" + centreX + " - Y=" + centreY);
-//                        touched = k;
-//                    }
-//                }
-//                if (touched == null || (touched != null && touched.popupCharacters == null)) return false;
-//                switch (event.getAction()) {
-//                    case MotionEvent.ACTION_DOWN:
-//                        x1 = (int) event.getX();
-//                        y = (int) event.getY();
-//                        Log.d("Coords", "" + x1 + " " + y);
-//                        break;
-//
-//                    case MotionEvent.ACTION_MOVE:
-//                        if (!longClick && event.getEventTime() - event.getDownTime() > 500 && Math.abs(event.getX() - x1) < 20) {
-//                            Log.e("length", "" + (event.getEventTime() - event.getDownTime()));
-//                            longClick = true;
-////                                popup.showAtLocation(view, 5, x1, y);
-//                            Log.d("showing", "" + popup.isShowing());
-////                                if(popup.isShowing()){
-////                                    popup.update(x1, y, 10, 15);
-////                                } else {
-//                            Log.e("Left", "" + view.getTop());
-//                            Log.e("Right", "" + (x1 - view.getRight() / 2) + " x1:" + x1);
-////                                    popup.setWidth(140);
-////                                    popup.setHeight(180);
-////                                    popup.showAtLocation(keyboardView, Gravity.CENTER_HORIZONTAL, x1 - view.getRight()/2, y - view.getBottom()/2);
-////                                }
-//
-////                            onKey(touched.codes[0], null);
-//                            KeyboardView kbv = new KeyboardView(context, null);
-//                            Keyboard kb = new Keyboard(context, R.xml.popup);
-//                            List<Keyboard.Key> keys = new ArrayList<>();
-//                            Log.w("Popup", ""+touched.popupCharacters);
-//                            LinearLayout linearLayout = new LinearLayout(context);
-//                            linearLayout.setOrientation(LinearLayout.HORIZONTAL);
-//
-//                            for (int i = 0; i < touched.popupCharacters.length(); i++) {
-//                                TextView button = new TextView(context);
-//                                button.setTextColor(Color.parseColor("white"));
-////                                button.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
-//                                button.setPadding(20, 3, 0, 0);
-//                                Log.e("CHAR at", ""+touched.popupCharacters.charAt(i));
-//                                button.setText(""+touched.popupCharacters.charAt(i));
-//                                button.setHeight(360);
-//                                button.setMaxWidth(40);
-//                                linearLayout.addView(button);
-//                            }
-//
-////                            for (Keyboard.Key key : keyboard.getKeys()) {
-////                                if (key.label != null && touched.popupCharacters.toString().contains(key.label)) {
-////                                    keys.add(key);
-////                                }
-////                                Log.e("Label", ""+key.label);
-////                            }
-//                            Log.e("Size", ""+keys.size());
-//                            kbv.setKeyboard(kb);
-//                            popup.setContentView(linearLayout);
-////                            popup.setWidth(140);
-////                            popup.setHeight(360);
-//                            popup.setFocusable(true);
-//                            popup.showAtLocation(keyboardView, Gravity.CENTER_HORIZONTAL,
-//                                    centreX - view.getRight() / 2, centreY - view.getBottom() / 2 - touched.height / 2);
-//
-//                        }
-//                        break;
-//                    case MotionEvent.ACTION_UP:
-////                                onKey(32,null);
-//                        if (!longClick) {
-//
-//                        }
-//                        popup.dismiss();
-//                        longClick = false;
-//                        return false;
-//                }
-//                return false;
-//            }
-//        });
-
-
         return keyboardView;
     }
 

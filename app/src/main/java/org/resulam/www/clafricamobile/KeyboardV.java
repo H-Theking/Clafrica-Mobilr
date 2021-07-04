@@ -31,20 +31,20 @@ public class KeyboardV extends KeyboardView {
         paint2.setColor(Color.WHITE);
     }
 
-    private void draw(Keyboard.Key key, String character, double x, Canvas canvas) {
+    private void drawOtherCharacter(Keyboard.Key key, String character, double x, Canvas canvas) {
         canvas.drawText(character, key.x + (float) key.width / 2 - (float) x, key.y + 55, paint);
     }
 
-    private void draw2(Keyboard.Key key, String character, double x, Canvas canvas) {
-        canvas.drawText(character, key.x + (float) key.width / 2 - (float) x, key.y + 105, paint2);
+    private void drawLetter(Keyboard.Key key, String character, double x, Canvas canvas) {
+        canvas.drawText(character, key.x + (float) key.width / 2 - (float) x, key.y + 110, paint2);
     }
 
     private void drawKey(Keyboard.Key key, String upper, double upperX, String lower, double lowerX,
                          String otherCharacter, double otherX, Canvas canvas) {
         if (isCapsOn()) {
-            draw2(key, upper, upperX, canvas);
-        } else draw2(key, lower, lowerX, canvas);
-        draw(key, otherCharacter, otherX, canvas);
+            drawLetter(key, upper, upperX, canvas);
+        } else drawLetter(key, lower, lowerX, canvas);
+        drawOtherCharacter(key, otherCharacter, otherX, canvas);
     }
 
     private boolean contains(int[] codes, int value) {
@@ -63,56 +63,56 @@ public class KeyboardV extends KeyboardView {
 
             if (contains(key.codes, 113)) {
                 if (isCapsOn()) {
-                    draw2(key, "Q", 17, canvas);
+                    drawLetter(key, "Q", 17, canvas);
                 } else {
-                    draw2(key, "q", 14, canvas);
+                    drawLetter(key, "q", 14, canvas);
                 }
-                draw(key, "%", 14, canvas);
+                drawOtherCharacter(key, "%", 14, canvas);
             } else if (contains(key.codes, 119)) {
-                if (isCapsOn()) draw2(key, "W", 25, canvas);
-                else draw2(key, "w", 19, canvas);
-                draw(key, "^", 9, canvas);
+                if (isCapsOn()) drawLetter(key, "W", 25, canvas);
+                else drawLetter(key, "w", 19, canvas);
+                drawOtherCharacter(key, "^", 9, canvas);
             } else if (contains(key.codes, 101)) {
                 if (isCapsOn())
-                    draw2(key, "E", 14, canvas);
+                    drawLetter(key, "E", 14, canvas);
                 else
-                    draw2(key, "e", 13, canvas);
-                draw(key, "~", 13, canvas);
+                    drawLetter(key, "e", 13, canvas);
+                drawOtherCharacter(key, "~", 13, canvas);
             } else if (contains(key.codes, 114)) {
                 if (isCapsOn())
-                    draw2(key, "R", 15, canvas);
-                else draw2(key, "r", 8, canvas);
-                draw(key, "|", 4, canvas);
+                    drawLetter(key, "R", 15, canvas);
+                else drawLetter(key, "r", 8, canvas);
+                drawOtherCharacter(key, "|", 4, canvas);
             } else if (contains(key.codes, 116)) {
                 if (isCapsOn())
-                    draw2(key, "T", 14, canvas);
-                else draw2(key, "t", 8.5, canvas);
-                draw(key, "[", 5, canvas);
+                    drawLetter(key, "T", 14, canvas);
+                else drawLetter(key, "t", 8.5, canvas);
+                drawOtherCharacter(key, "[", 5, canvas);
             } else if (contains(key.codes, 121)) {
                 if (isCapsOn())
-                    draw2(key, "Y", 14, canvas);
-                else draw2(key, "y", 12, canvas);
-                draw(key, "]", 5, canvas);
+                    drawLetter(key, "Y", 14, canvas);
+                else drawLetter(key, "y", 12, canvas);
+                drawOtherCharacter(key, "]", 5, canvas);
             } else if (contains(key.codes, 117)) {
                 if (isCapsOn())
-                    draw2(key, "U", 16.5, canvas);
-                else draw2(key, "u", 13.5, canvas);
-                draw(key, "<", 10, canvas);
+                    drawLetter(key, "U", 16.5, canvas);
+                else drawLetter(key, "u", 13.5, canvas);
+                drawOtherCharacter(key, "<", 10, canvas);
             } else if (contains(key.codes, 105)) {
                 if (isCapsOn())
-                    draw2(key, "I", 6.5, canvas);
-                else draw2(key, "i", 6.5, canvas);
-                draw(key, ">", 10, canvas);
+                    drawLetter(key, "I", 6.5, canvas);
+                else drawLetter(key, "i", 6.5, canvas);
+                drawOtherCharacter(key, ">", 10, canvas);
             } else if (contains(key.codes, 111)) {
                 if (isCapsOn())
-                    draw2(key, "O", 17, canvas);
-                else draw2(key, "o", 14, canvas);
-                draw(key, "{", 8.5, canvas);
+                    drawLetter(key, "O", 17, canvas);
+                else drawLetter(key, "o", 14, canvas);
+                drawOtherCharacter(key, "{", 8.5, canvas);
             } else if (contains(key.codes, 112)) {
                 if (isCapsOn())
-                    draw2(key, "P", 15.5, canvas);
-                else draw2(key, "p", 12.5, canvas);
-                draw(key, "}", 8.5, canvas);
+                    drawLetter(key, "P", 15.5, canvas);
+                else drawLetter(key, "p", 12.5, canvas);
+                drawOtherCharacter(key, "}", 8.5, canvas);
             }
 
             //------------------------Row 2---------------------------
