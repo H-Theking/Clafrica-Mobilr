@@ -66,7 +66,6 @@ public class KeyboardService extends InputMethodService implements KeyboardView.
     @Override
     public boolean onKeyLongPress(int keyCode, KeyEvent event) {
         Log.e("longpress", "onKeyLongPress: ");
-        System.out.println("On key long pressed");
         KeyCharacterMap keyCharacterMap = event.getKeyCharacterMap();
 
 //        characterMap.getEvents()
@@ -80,7 +79,6 @@ public class KeyboardService extends InputMethodService implements KeyboardView.
                 }
             }
         }
-        System.out.println("pressed key " + pressedKey);
         if (pressedKey != null) {
             CharSequence popupCharacters = pressedKey.popupCharacters;
             if (popupCharacters.length() == 1) {
@@ -112,15 +110,7 @@ public class KeyboardService extends InputMethodService implements KeyboardView.
 
     @Override
     public void onKey(int primaryCode, int[] keyCodes) {
-//        if (closingFlag) {
-//            closingFlag = false;
-//            return;
-//        }
         InputConnection ic = getCurrentInputConnection();
-//        for (int i = 0; i < keyCodes.length; i++) {
-//            System.out.println("primaryCode " + keyCodes[i]);
-//        }
-//        System.out.println("primaryCode " + Arrays.asList(keyCodes));
 
         playClick(primaryCode);
         int length = typed.length();
@@ -257,7 +247,6 @@ public class KeyboardService extends InputMethodService implements KeyboardView.
 
     protected static HashMap<String, String> getCharacters(InputStream inputStream) throws IOException {
 //        InputStream inputStream = getResources().openRawResource(R.raw.characters.txt);
-        System.out.println("inputStream " + inputStream);
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
         HashMap<String, String> characterMap = new HashMap<>();
         for (String line = bufferedReader.readLine(); line != null; line = bufferedReader.readLine()) {
